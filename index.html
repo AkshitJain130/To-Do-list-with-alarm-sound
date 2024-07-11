@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do List with Alarm</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>To-Do List with Alarm</h1>
+        <form id="todo-form">
+            <input type="text" id="task-input" placeholder="Enter a task" required>
+            <input type="datetime-local" id="alarm-time" required>
+            <button type="submit">Add Task</button>
+        </form>
+        <ul id="task-list"></ul>
+    </div>
+    <audio id="alarm-sound" src="./WhatsApp Audio 2024-07-11 at 15.28.23_15dfe59e.mp3" preload="auto"></audio>
+    <script src="./script.js"></script>
+</body>
+</html>
